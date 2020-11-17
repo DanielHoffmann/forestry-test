@@ -14,3 +14,5 @@ fields:
     min: 
     max: 
   label: triggers
+pages:
+- faultCodes/1232.md
