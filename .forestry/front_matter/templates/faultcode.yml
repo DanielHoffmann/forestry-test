@@ -1,4 +1,16 @@
 ---
 label: FaultCode
 hide_body: true
-fields: []
+fields:
+- name: dtcSpnRange
+  type: text
+  config:
+    required: true
+  label: dtcSpnRange
+- name: triggers
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: triggers
