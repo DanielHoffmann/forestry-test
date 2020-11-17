@@ -14,18 +14,6 @@ fields:
     min: 
     max: 
   label: triggers
-- name: link
-  type: select
-  default: []
-  config:
-    required: true
-    options: []
-    source:
-      type: pages
-      section: faultcodes
-      file: 
-      path: 
-  label: link
 pages:
 - faultCodes/1232.md
 - faultCodes/2222.md
